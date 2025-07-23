@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruru World Rentals | Luxury Event Decor & Planning</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Montserrat:wght@400;600&family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="Asset/ruru-logo.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="Asset/ruru-logo.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <img src="Asset/ruru-world-events-logo.jpg" alt="Ruru World Rentals" class="logo">
+        <p class="loading-text">Loading</p>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo-container">
+            <img src="Asset/ruru-world-events-logo.jpg" alt="Ruru World Rentals" class="logo">
+        </div>
+        <button class="mobile-menu-btn" aria-label="Menu">
+            <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li class="social-icons-mobile">
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://wa.me/2348109957759" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            </li>
+        </ul>
+        <div class="social-icons">
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://wa.me/2348109957759" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="video-background">
+            <video autoplay muted loop id="heroVideo">
+                <source src="Asset/hero1.mp4" type="video/mp4">
+                <!-- Fallback image if video doesn't load -->
+                <img src="Asset/ruru-world-fallback.jpg" alt="Ruru World Rentals Luxury Event Decor">
+            </video>
+            <div class="video-overlay"></div>
+        </div>
+        <div class="container hero-content">
+            <div class="award-badge">
+                <span>APPOEMN Awardee 2024</span>
+                <span>Best Event Decorator, South</span>
+            </div>
+            <h1>Cultural Luxury <span>Event Experiences</span></h1>
+            <p class="tagline">Where Tradition Meets Opulence</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary">Book Your Event</a>
+                <a href="tel:+2348109957759" class="btn btn-secondary">
+                    <i class="fas fa-phone"></i> 0810 995 7759
+                </a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <span class="tagline">Excellence in Event Decor</span>
+                    <h2>About Ruru World Rentals</h2>
+                    <p>We are a premier event decoration and planning company specializing in creating stunning visual experiences across Nigeria. Our team brings creativity and precision to every event we handle.</p>
+                    <p>From weddings to surprise birthdays, we ensure your event is beautifully decorated with special effects and professional lighting that creates unforgettable moments.</p>
+                    <a href="#contact" class="btn btn-primary">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Services</h2>
+                <p class="section-subtitle">Comprehensive event decoration solutions</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-ring"></i>
+                    </div>
+                    <h3>Wedding Decor</h3>
+                    <p>Beautiful wedding ceremony and reception decorations tailored to your theme.</p>
+                    <a href="#contact" class="explore-btn">Explore Service</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-birthday-cake"></i>
+                    </div>
+                    <h3>Birthday Decor</h3>
+                    <p>Creative surprise birthday ideas and decorations for all ages.</p>
+                    <a href="#contact" class="explore-btn">Explore Service</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>Special Effects</h3>
+                    <p>Enhance your event with stunning special effects and lighting.</p>
+                    <a href="#contact" class="explore-btn">Explore Service</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Event Decor</h3>
+                    <p>All kinds of event decorations for various occasions and celebrations.</p>
+                    <a href="#contact" class="explore-btn">Explore Service</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>Professional Lighting</h3>
+                    <p>Transform your venue with our professional lighting solutions.</p>
+                    <a href="#contact" class="explore-btn">Explore Service</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                    </div>
+                    <h3>Training</h3>
+                    <p>Learn the art of event decoration through our professional training.</p>
+                    <a href="#contact" class="explore-btn">Explore Service</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Section -->
+    <section class="trust-section">
+        <div class="container">
+            <div class="stats">
+                <div class="stat-item">
+                    <div class="counter" data-target="100">400+</div>
+                    <span>Satisfied Clients</span>
+                </div>
+                <div class="stat-item">
+                    <div class="counter" data-target="200">500+</div>
+                    <span>Events Decorated</span>
+                </div>
+                <div class="stat-item">
+                    <div class="counter" data-target="11">11+</div>
+                    <span>Years Experience</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Event Portfolio</h2>
+                <p class="section-subtitle">Explore our beautiful event decorations</p>
+            </div>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide" style="background-image: url('Asset/weddng.jpg')">
+                        <div class="slide-overlay">
+                            <h3>Wedding Decor</h3>
+                            <p>Elegant Ceremony & Reception</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" style="background-image: url('Asset/bh.jpg')">
+                        <div class="slide-overlay">
+                            <h3>Surprise Birthday</h3>
+                            <p>Creative Theme Execution</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" style="background-image: url('Asset/corporate.jpg')">
+                        <div class="slide-overlay">
+                            <h3>Special Effects</h3>
+                            <p>Dramatic Event Enhancements</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" style="background-image: url('Asset/bh.jpg')">
+                        <div class="slide-overlay">
+                            <h3>Professional Lighting</h3>
+                            <p>Atmospheric Transformations</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" style="background-image: url('Asset/event.jpg')">
+                        <div class="slide-overlay">
+                            <h3>Event Decor</h3>
+                            <p>Various Occasions</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <div class="view-more">
+                <a href="#" class="btn btn-secondary">View More Events</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quote Calculator -->
+    <section class="quote-calculator">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get an Instant Quote</h2>
+                <p class="section-subtitle">Calculate estimated costs for your event decoration</p>
+            </div>
+            
+            <div class="calculator-form">
+                <div class="form-group">
+                    <label for="eventType">Event Type</label>
+                    <select id="eventType" class="form-control">
+                        <option value="">Select event type</option>
+                        <option value="wedding">Wedding</option>
+                        <option value="birthday">Birthday</option>
+                        <option value="corporate">Corporate Event</option>
+                        <option value="other">Other Celebration</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="guestCount">Venue Size</label>
+                    <input type="range" id="guestCount" min="20" max="500" value="100" class="form-control">
+                    <div class="range-value"><span id="guestDisplay">100</span> guests capacity</div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="eventDate">Event Date</label>
+                    <input type="text" id="eventDate" class="form-control datepicker" placeholder="Select date">
+                </div>
+                
+                <div class="form-group">
+                    <label>
+                        <input type="checkbox" id="specialEffects"> Include Special Effects
+                    </label>
+                    <label>
+                        <input type="checkbox" id="proLighting"> Include Professional Lighting
+                    </label>
+                </div>
+                
+                <button id="calculateBtn" class="btn btn-primary">Calculate Quote</button>
+                
+                <div id="quoteResult" class="quote-result">
+                    <!-- Results will appear here -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Ready to Decorate Your Event?</h2>
+                <p class="section-subtitle">Let's create beautiful memories together</p>
+            </div>
+            <form id="contactForm">
+                <select id="serviceType" required>
+                    <option value="">Select Service Needed</option>
+                    <option value="Wedding Decor">Wedding Decor</option>
+                    <option value="Birthday Decor">Birthday Decor</option>
+                    <option value="Special Effects">Special Effects</option>
+                    <option value="Professional Lighting">Professional Lighting</option>
+                    <option value="Training">Training</option>
+                </select>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Email">
+                <input type="tel" placeholder="Phone" required>
+                <textarea placeholder="Tell us about your event and decoration ideas..."></textarea>
+                <button type="submit" class="btn whatsapp-btn">
+                    <i class="fab fa-whatsapp"></i> Contact via WhatsApp
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Floating WhatsApp -->
+    <a href="https://wa.me/2348109957759" class="floating-whatsapp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="Asset/ruru-world-events-logo.jpg" alt="Ruru World Rentals">
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#services">Services</a>
+                    <a href="#gallery">Gallery</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-contact">
+                    <p>Nigeria</p>
+                    <p>+234 810 995 7759</p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="https://wa.me/2348109957759" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Ruru World Rentals. All rights reserved.</p>
+                <p>APPOEMN Awardee 2024 - Best Event Decorator, South</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
